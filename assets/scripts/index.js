@@ -89,11 +89,11 @@ function reformedGradesToLetters(grades) {
   return grades.map(grade => {
     if (grade >= 80) {
       return 'A';
-    } else if (grade >= 60 && grade <= 79) {
+    } else if (grade >= 60) {
       return 'B';
-    } else if (grade >= 40 && grade <= 59) {
+    } else if (grade >= 40) {
       return 'C';
-    } else if (grade >= 20 && grade <= 39) {
+    } else if (grade >= 20) {
       return 'D';
     } else {
       return 'E';
